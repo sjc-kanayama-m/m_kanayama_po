@@ -32,10 +32,6 @@ body {
   position: relative;
 }
 
-.me-image {
-
-}
-
 /* header */
 .header {
   font-family: "Jockey One";
@@ -96,8 +92,31 @@ body {
 }
 
 /* about_meページ */
+.about-me-contena {
+  display: flex;
+}
+
+.me-image {
+  width: 40%;
+}
+
+img {
+  width: 60%;
+  height: 80%;
+  border-radius: 5%;
+  margin: 0 5%;
+}
+
+.my-name {
+  margin-left: 15%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .me-info {
-  
+  width: 50%;
+  margin: 0 5%;
+  font-size: 20px;
 }
 
 
